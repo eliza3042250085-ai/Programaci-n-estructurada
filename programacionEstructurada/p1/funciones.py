@@ -1,5 +1,7 @@
 """
-  Una función es un conjunto de instrucciones agrupadas bajo un nombre en particular como un programa mas pequeño que cumple una funcion especifica. La funcion se puede reutulizar con el simple hecho de invocarla es decir mandarla llamar 
+  Una función es un conjunto de instrucciones agrupadas bajo un nombre en particular como un programa mas pequeño que cumple una funcion 
+  especifica. 
+  La funcion se puede reutulizar con el simple hecho de invocarla es decir mandarla llamar 
 
   Sintaxis:
 
