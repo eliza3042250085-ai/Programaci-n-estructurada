@@ -1,12 +1,12 @@
-"""  
- List (Array)
- son colleciones o conjunto de datos/valores bajo un mismo nombre, para acceder a los valores se hace con un indice numerico 
+# """  
+#  List (Array)
+#  son colleciones o conjunto de datos/valores bajo un mismo nombre, para acceder a los valores se hace con un indice numerico 
 
- Nota: sus valores si son modificables
+#  Nota: sus valores si son modificables
 
- La lista es una colección ordenada y modificable. Permite miembros duplicados.
+#  La lista es una colección ordenada y modificable. Permite miembros duplicados.
 
-"""
+# """
 
 print("\033c")
 #Funciones más comunes en las listas
@@ -42,23 +42,31 @@ for i in range(0,len()):
 
 
 #ordenar elementos de una lista
+paises=["México","Canada","EUA","México","Brasil"]
+paises.sort()
+print(paises)
 
 
 #dar la vuelta a una lista
-
+paises.reverse()
+print(paises)
 
 
 
 #Agregar, insertar, Añadir un elemento a una lista
 #1er forma 
+paises.append("Honduras")
+print(paises)
 
 
 #2da forma
+paises.insert(1,"Colombia")
+print(paises)
 
 
 #Eliminar, borrar, suprimir, un elemento de una lista
 #1er forma
-#Funcion pop que pide parameteos y te regresa toda la lista.Se debe conocer la poscion a querer borarr para que sea automatico
+#Funcion pop que pide parameteos y te regresa toda la lista.Se debe conocer la poscion a querer borrar para que sea automatico
 
 paises.pop(4)
 print(paises)
