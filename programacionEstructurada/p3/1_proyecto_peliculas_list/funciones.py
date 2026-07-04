@@ -2,7 +2,7 @@ def borrarPantalla():
     print("\033c")
     
 def espereTecla():
-    input("...¡Oprima cualquier tecla para contunuar!...")
+    input("...¡Oprima cualquier tecla para continuar!...")
     
 def accionExitosa():
     input("...¡Accion Realizada con Exito!...")
